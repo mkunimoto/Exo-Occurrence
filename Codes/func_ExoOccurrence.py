@@ -17,7 +17,7 @@ stars = np.loadtxt("FGK_properties.dat")
 earth_radius_in_m = 6.378e6
 sun_radius_in_m = 6.9566e8
 rsol_in_au = 0.00465
-rearth_in_rsol = 0.009168
+rearth_in_rsol = 0.009158
 
 kepler_exp_time_internal = 6.019802903/(24.*60.*60.)
 kepler_read_time_internal = 0.5189485261/(24.*60.*60.)

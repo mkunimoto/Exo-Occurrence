@@ -1,7 +1,5 @@
 import numpy as np
 from scipy.stats import poisson
-from scipy.stats import rayleigh
-from scipy.stats import uniform
 from scipy.stats import bernoulli
 from scipy.stats import gamma
 from scipy.stats import halfnorm
@@ -17,7 +15,7 @@ stars = np.loadtxt("FGK_properties.dat")
 earth_radius_in_m = 6.378e6
 sun_radius_in_m = 6.9566e8
 rsol_in_au = 0.00465
-rearth_in_rsol = 0.009158
+rearth_in_rsol = earth_radius_in_m/sun_radius_in_m
 
 kepler_exp_time_internal = 6.019802903/(24.*60.*60.)
 kepler_read_time_internal = 0.5189485261/(24.*60.*60.)
